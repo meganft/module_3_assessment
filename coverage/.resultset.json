@@ -43,6 +43,60 @@
         1,
         null
       ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/controllers/best_buy_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/models/best_buy_location.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        15,
+        15,
+        15,
+        15,
+        15,
+        null,
+        null,
+        1,
+        1,
+        1,
+        15,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/services/best_buy_service.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/megantalbot/turing/3module/final-assessment/storedom/app/controllers/api/v1/items_controller.rb": [
         1,
         null,
@@ -86,20 +140,6 @@
         0,
         0
       ],
-      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/controllers/best_buy_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
       "/Users/megantalbot/turing/3module/final-assessment/storedom/app/controllers/orders_controller.rb": [
         0,
         0,
@@ -112,32 +152,6 @@
         0
       ],
       "/Users/megantalbot/turing/3module/final-assessment/storedom/app/controllers/users_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/models/best_buy_location.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0,
@@ -166,22 +180,8 @@
         0,
         0,
         0
-      ],
-      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/services/best_buy_service.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
       ]
     },
-    "timestamp": 1483726364
+    "timestamp": 1483727108
   }
 }

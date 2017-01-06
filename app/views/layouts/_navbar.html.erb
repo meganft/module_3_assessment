@@ -22,7 +22,7 @@
     </ul>
     <li>
       <div class="zipsearch">
-       <%= form_tag :search, method: :get, url: "/search", class: "form-inline" do %>
+       <%= form_tag '/search', method: :post, url: "/search", class: "form-inline" do %>
          <div class="form-group search-field">
            <%= text_field_tag :zip, "Find Best Buy", class: "form-control" %>
            <%= submit_tag "Locate", class: "btn btn-primary" %>

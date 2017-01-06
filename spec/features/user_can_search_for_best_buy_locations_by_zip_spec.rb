@@ -5,11 +5,12 @@ describe "As a user, when I visit root path and enter a zip code into search bar
     VCR.use_cassette('best_buy_service#by_location') do
 
       visit root_path
-      within(:css, ".zipsearch") do
-        fill_in "zip", :with => '80202'
-      end
 
-      # expect(current_path).to eq('/search')
+      within(:css, ".zipsearch") do
+        fill_in "zip", with: '80202'
+        click_on "Locate"
+      end
+      expect(current_path).to eq('/search')
       # expect(page).to have_content("16 Total Stores")
       # expect(page).to have_content("15")
       expect(page).to have_content("Best Buy - Belmar")
