@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'items#index'
-  
+
   resources :items,  only: [:index, :show]
   resources :orders, only: [:index, :show]
   resources :users,  only: [:index, :show]
@@ -10,4 +10,6 @@ Rails.application.routes.draw do
       resources :items
     end
   end
+
+  get '/search', to: "best_buy#index"
 end

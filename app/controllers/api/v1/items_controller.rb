@@ -16,9 +16,6 @@ class Api::V1::ItemsController < ApplicationController
     end
   end
 
-  def update
-  end
-
   def destroy
     item = Item.find(params[:id])
     item.destroy
