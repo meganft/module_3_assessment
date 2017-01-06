@@ -2,21 +2,23 @@ require 'rails_helper'
 
 describe "As a user, when I visit root path and enter a zip code into search bar" do
   scenario "I can see closest best buy locations" do
+    VCR.use_cassette('best_buy_service#by_location') do
 
-    visit root_path
-    within(:css, ".zipsearch") do
-      fill_in "zip", :with => '80202'
+      visit root_path
+      within(:css, ".zipsearch") do
+        fill_in "zip", :with => '80202'
+      end
+
+      # expect(current_path).to eq('/search')
+      # expect(page).to have_content("16 Total Stores")
+      # expect(page).to have_content("15")
+      expect(page).to have_content("Best Buy - Belmar")
+      expect(page).to have_content("Lakewood")
+      expect(page).to have_content("Lakewood")
+      expect(page).to have_content("5.28")
+      expect(page).to have_content("303-742-8039")
+      expect(page).to have_content("BigBox")
     end
-
-    # expect(current_path).to eq('/search')
-    expect(page).to have_content("16 Total Stores")
-    # expect(page).to have_content("15")
-    expect(page).to have_content("Best Buy - Belmar")
-    expect(page).to have_content("Lakewood")
-    expect(page).to have_content("Lakewood")
-    expect(page).to have_content("5.28")
-    expect(page).to have_content("303-742-8039")
-    expect(page).to have_content("BigBox")
   end
 end
 

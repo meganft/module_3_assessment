@@ -96,6 +96,8 @@
         0,
         0,
         0,
+        0,
+        0,
         0
       ],
       "/Users/megantalbot/turing/3module/final-assessment/storedom/app/controllers/orders_controller.rb": [
@@ -110,6 +112,32 @@
         0
       ],
       "/Users/megantalbot/turing/3module/final-assessment/storedom/app/controllers/users_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/models/best_buy_location.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -138,8 +166,22 @@
         0,
         0,
         0
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/services/best_buy_service.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     },
-    "timestamp": 1483724785
+    "timestamp": 1483726364
   }
 }
