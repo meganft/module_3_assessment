@@ -6,6 +6,6 @@ class BestBuyController < ApplicationController
   end
 
   def show
-    @location = BestBuyLocation.store_info(params[:id])
+    @hours = BestBuyLocation.store_info(params[:id])
   end
 end

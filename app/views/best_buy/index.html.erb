@@ -1,6 +1,4 @@
-best buy index
-
-<p><%= @number %>Total Stores</p>
+<p><%= @number %> Total Stores</p>
 <ol>
 <% @locations.each do |store| %>
   <li><p> <%= link_to store.long_name, store_path(store.id) %>

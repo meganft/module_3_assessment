@@ -18,7 +18,6 @@ describe "As a user, when I visit root path and enter a zip code into search bar
       expect(page).to have_content("16 Total Stores")
       expect(page).to have_content("Best Buy - Belmar")
       expect(page).to have_content("Lakewood")
-      expect(page).to have_content("Lakewood")
       expect(page).to have_content("5.28")
       expect(page).to have_content("303-742-8039")
       expect(page).to have_content("BigBox")

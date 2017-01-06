@@ -14,15 +14,11 @@ describe "As a user, after I have entered the zip code to search" do
         click_on "Best Buy - Belmar"
       end
 
-      expect(current_path).to eq("/stores/:store_id")
-      expect(page).to have_content("Best Buy - Belmar")
-      expect(page).to have_content("BigBox")
-
+      expect(current_path).to eq("/stores/1224")
+      expect(page).to have_content("Mon: 10-9")
     end
   end
 end
-
-
 
 
 # As a user
