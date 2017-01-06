@@ -1,1 +1,8 @@
 best buy index
+
+<p>Total number of stores: <%= @number %></p>
+<% @info.each do |store| %>
+
+<p><%= store["name"] %></p>
+
+<% end %>

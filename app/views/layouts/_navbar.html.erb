@@ -21,9 +21,9 @@
       </li>
     </ul>
     <li>
-       <%= form_tag :search, method: :get, class: "form-inline" do %>
+       <%= form_tag :search, method: :get, url: "/search", class: "form-inline" do %>
          <div class="form-group search-field">
-           <%= text_field_tag :q, "Find Best Buy", class: "form-control" %>
+           <%= text_field_tag :zip, "Find Best Buy", class: "form-control" %>
            <%= submit_tag "Locate", class: "btn btn-primary" %>
            <% end %>
          </div>
