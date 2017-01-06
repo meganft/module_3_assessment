@@ -10,9 +10,9 @@ class Api::V1::ItemsController < ApplicationController
   end
 
   def create
-    item = Item.find(item_params)
+    item = Item.create(item_params)
     if item.save
-      render json: item
+      render json: item, :status => 201
     end
   end
 
@@ -28,6 +28,7 @@ class Api::V1::ItemsController < ApplicationController
   private
 
     def item_params
-      params.require(:item).permit(:zip)
+      params.require(:item).permit(:name, :description, :image_url)
+    end
 
 end
