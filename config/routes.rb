@@ -12,4 +12,5 @@ Rails.application.routes.draw do
   end
 
   post '/search', to: "best_buy#index", as: "search"
+  get '/stores/:id', to: "best_buy#show", as: "store"
 end

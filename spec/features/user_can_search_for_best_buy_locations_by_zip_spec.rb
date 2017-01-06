@@ -10,9 +10,12 @@ describe "As a user, when I visit root path and enter a zip code into search bar
         fill_in "zip", with: '80202'
         click_on "Locate"
       end
+
       expect(current_path).to eq('/search')
-      # expect(page).to have_content("16 Total Stores")
-      # expect(page).to have_content("15")
+      within('ol') do
+        expect( all('li').count ).to eq(15)
+      end
+      expect(page).to have_content("16 Total Stores")
       expect(page).to have_content("Best Buy - Belmar")
       expect(page).to have_content("Lakewood")
       expect(page).to have_content("Lakewood")

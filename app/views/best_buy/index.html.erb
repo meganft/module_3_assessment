@@ -1,13 +1,12 @@
 best buy index
 
-<p><%= @number %> 16 Total Stores</p>
-<% @locations.each do |store| %>
+<p><%= @number %>Total Stores</p>
 <ol>
-<li><p> <%= store.long_name %>
-<%= store.city %>
-<%= store.distance %>
-<%= store.phone %>
-<%= store.store_type %><p>
-</li>
+<% @locations.each do |store| %>
+  <li><p> <%= store.long_name %>
+  <%= store.city %>
+  <%= store.distance %>
+  <%= store.phone %>
+  <%= store.store_type %><p></li>
+  <% end %>
 </ol>
-<% end %>

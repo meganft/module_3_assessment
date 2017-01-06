@@ -17,8 +17,9 @@ class BestBuyLocation
     end
   end
 
-  def self.number
-
+  def self.store_count(zip)
+    service = BestBuyService.new
+    service.find_number(zip)
   end
 
 end
