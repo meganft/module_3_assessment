@@ -14,6 +14,7 @@ gem "less-rails-bootstrap"
 gem "minitest-rails"
 gem 'faraday'
 gem 'figaro'
+gem 'active_model_serializers', '~> 0.10.0'
 
 group :development do
   gem "spring"
@@ -28,4 +29,5 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'launchy'
+  gem 'simplecov'
 end

@@ -1,0 +1,119 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/helpers/items_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/helpers/orders_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/models/item.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/controllers/api/v1/items_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/serializers/item_serializer.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/controllers/api_controller.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/controllers/items_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/controllers/orders_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/controllers/users_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/models/order.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/models/order_item.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/megantalbot/turing/3module/final-assessment/storedom/app/models/user.rb": [
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1483719901
+  }
+}
