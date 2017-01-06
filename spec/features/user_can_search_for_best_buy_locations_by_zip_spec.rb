@@ -4,10 +4,10 @@ describe "As a user, when I visit root path and enter a zip code into search bar
   scenario "I can see closest best buy locations" do
 
     visit root_path
-save_and_open_page
-    within "#zipsearch" do
-    fill_in "search[zip]", with: "80202"
+    within(:css, ".zipsearch") do
+      fill_in "zip", :with => '80202'
     end
+
     # expect(current_path).to eq('/search')
     expect(page).to have_content("16 Total Stores")
     # expect(page).to have_content("15")

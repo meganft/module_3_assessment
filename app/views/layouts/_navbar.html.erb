@@ -21,13 +21,13 @@
       </li>
     </ul>
     <li>
-      <span class="zipsearch"
+      <div class="zipsearch">
        <%= form_tag :search, method: :get, url: "/search", class: "form-inline" do %>
          <div class="form-group search-field">
            <%= text_field_tag :zip, "Find Best Buy", class: "form-control" %>
            <%= submit_tag "Locate", class: "btn btn-primary" %>
            <% end %>
          </div>
-       </span>
+       </div>
   </div>
 </nav>
