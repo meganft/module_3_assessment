@@ -3,7 +3,7 @@ best buy index
 <p><%= @number %>Total Stores</p>
 <ol>
 <% @locations.each do |store| %>
-  <li><p> <%= store.long_name %>
+  <li><p> <%= link_to store.long_name, store_path(store.id) %>
   <%= store.city %>
   <%= store.distance %>
   <%= store.phone %>

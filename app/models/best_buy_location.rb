@@ -1,6 +1,6 @@
 class BestBuyLocation
 
-  attr_reader :long_name, :city, :distance, :phone, :store_type
+  attr_reader :long_name, :city, :distance, :phone, :store_type, :id
 
   def initialize(attributes={})
     @long_name = attributes["longName"]
@@ -8,6 +8,7 @@ class BestBuyLocation
     @distance = attributes["distance"]
     @phone = attributes["phone"]
     @store_type = attributes["storeType"]
+    @id = attributes["storeId"]
   end
 
   def self.by_zip(zip)
@@ -20,6 +21,11 @@ class BestBuyLocation
   def self.store_count(zip)
     service = BestBuyService.new
     service.find_number(zip)
+  end
+
+  def self.store_info(id)
+    service = BestBuyService.new
+    service.store_info(id)
   end
 
 end

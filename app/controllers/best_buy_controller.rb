@@ -5,6 +5,7 @@ class BestBuyController < ApplicationController
     @number = BestBuyLocation.store_count(params[:zip])
   end
 
-  def show 
+  def show
+    @location = BestBuyLocation.store_info(params[:id])
   end
 end
